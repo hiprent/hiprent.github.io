@@ -457,7 +457,7 @@ header{
 .samochod.on{
   margin:1rem;
   width:80vw;
-  height: 15rem;
+  height: 30rem;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -473,6 +473,9 @@ header{
 }
 .samochod{
   display:none;
+}
+.samochod.on{
+  height: 30rem;
 }
 
 .samochod:hover{
@@ -528,7 +531,11 @@ header{
   color:black;
 
 }
-
+@media only screen and (min-width: 600px){
+  .samochod.on{
+    height: 15rem;
+  }
+}
 @media only screen and (min-width: 1000px){
   .samochody{
     flex-direction: row;
