@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/YOUR_PATH/favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA/4QAAAD/3QAfHRsA/xEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADMwAAAzMAAEMjRERDI0QEQzNBEUMzQUQURBERFEQRQERERERERERAAABCIkAAAAAAAAREQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAA//8AAP//AADHxwAAgAEAAAAAAAAAAAAAgAAAAPg/AAD8PwAA//8AAP//AAD//wAA//8AAP//AAD//wAA" rel="icon" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/fac4c0f01f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Wypożyczalnia samochodów</title>
+</head>
+<body>
+
+
+    <!-- naglowek -->
+
+    <header>
+        <div class="company-name">
+            <a href="index.html"> 
+                <i class="fa-solid fa-car"></i>
+                <span>Rent Hip</span>
+            </a>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Wyszukaj nazwe samochodu">
+        </div>
+        <ul class="menu">
+            <li data-key='about' class="header-options">O NAS</li>
+            <li data-key='flota' class="header-options">FLOTA</li>
+            <li data-key='oferta' class="header-options">OFERTA</li>
+            <li data-key='contact' class="header-options">KONTAKT</li>
+        </ul>
+        <div class="burger">
+            <i class="fa-solid fa-bars lines "></i>
+            <i class="fa-solid fa-xmark cross on"></i>
+        </div>
+    </header>
+    <main class="glowny">
+        <img src="images/tlo.jpeg" alt="">
+        <div class="title">
+            <h1>Wypożyczalnia samochodów</h1>
+            <h2>Sprawdź cene i wypożycz już dziś!</h2>
+        </div>
+        <div class="scroll">
+            <i class="fa-solid fa-arrow-down"></i>
+        </div>
+        <!-- <div class="dlugoterminowy">
+            <h1>Wynajem długoterminowy (1-7 dni)</h1>
+        </div>
+        <div class="krotkoterminowy">
+            <h1>Wynajem krótkoterminowy (7-30 dni)</h1>
+        </div> -->
+    </main>
+
+
+    <!-- o nas -->
+
+    <div class='about'>
+        <h1 class="title-h1">O NASZEJ FIRMIE</h1>
+        <div class="article">
+            <div class="first-article">
+                <h2>Nowa firma, która zdominuje polski rynek </h2>
+                <p>Przedstawiamy nową firmę, gotową na podbicie polskiego rynku. Specjalizujemy się w dostarczaniu wysokiej jakości produktów i usług w dziedzinie wypożyczania samochodów. Nasz zespół ekspertów jest doświadczony, a nasza technologia najnowocześniejsza. Stawiamy na doskonałą obsługę klienta i zawsze staramy się dostosować do ich potrzeb. Zapraszamy do zapoznania się z naszą ofertą, aby dołączyć do grona naszych zadowolonych klientów.</p>
+                <img src="images/shakingHands.webp" alt="">
+            </div>
+            <div class="second-article">
+                <h2>Klient jest u nas zawsze na pierwszym miejscu</h2>
+                <p>Przedstawiamy firmę, w której Klient jest najważniejszy. Nasz doświadczony zespół słucha potrzeb Klientów i dostosowuje się do ich wymagań, aby zapewnić najlepsze rozwiązania w dziedzinie wypożyczania samochodów. Stawiamy na doskonałą obsługę klienta i dążymy do zapewnienia najlepszego doświadczenia związanego z naszymi produktami i usługami. Zapraszamy do zapoznania się z naszą ofertą i dołączenia do grona naszych zadowolonych Klientów.</p>
+                <img src="images/art2.jpg" alt="">
+            </div>
+            <div class="third-article">
+                <h2>Dlaczego  to nas powinieneś wybrać?</h2>
+                <p>Dlaczego wybrać naszą firmę? Oferujemy wysokiej jakości produkty i usługi w naszej wypożyczalni, składając się z ekspertów w swojej dziedzinie. Nasz zespół stawia na doskonałą obsługę klienta i zawsze dąży do zadowolenia Klientów. Wybierz naszą firmę, aby mieć pewność, że otrzymasz najlepszą jakość produktów i usług, a także doskonałą obsługę klienta.</p>
+                <img src="images/art3.webp" alt="">
+            </div>
+            <div class="fourth-article">
+                <h2>Co oferujemy?</h2>
+                <ul>
+                    <li><span><i class="fa-solid fa-check"></i></span>Konkurencyjne ceny</li>
+                    <li><span><i class="fa-solid fa-check"></i>Nowe samochody</li>
+                    <li><span><i class="fa-solid fa-check"></i>Ekspresowa obsługa</li>
+                    <li><span><i class="fa-solid fa-check"></i>Jesteśmy dostępni w całej Polsce</li>
+                    <li><span><i class="fa-solid fa-check"></i>Możliwość rezerwacji na wybrany termin</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- FLOTA -->
+    
+    <div class="flota">
+        <h1 class="title-h1">FLOTA</h1>
+        <div class="categories">
+            <button class="all on">WSZYSTKIE</button>
+            <button class="sport">SPORTOWE</button>
+            <button class="family">RODZINNE</button>
+            <button class="old">ZABYTKOWE</button>
+        </div>
+        <div  class="samochody">
+            <div  class="samochod on sport ">
+                <div class="car-img">
+                    <img src="./images/car1.png" alt="">
+                </div>
+                <div> 
+                    <h2 class="car-name">McLaren</h2>
+                    <p class="type">Typ samochodu: hatchback</p>
+                    <p>Ilość miejsc: 5</p>
+                    <p class="year">Rok produkcji: 2020</p>
+                    <p>Skrzynia biegów: manualna</p>
+                    <button class="reservation">ZAPYTAJ O DOSTĘPNOŚĆ</button>
+                </div>
+                
+            </div>
+            <div  class="samochod on sport">
+                <div class="car-img">
+                    <img src="./images/car2.webp" alt="">
+                </div>
+                <div> 
+                    <h2 class="car-name">Ford</h2>
+                    <p class="type">Typ samochodu: hatchback</p>
+                    <p>Ilość miejsc: 5</p>
+                    <p class="year">Rok produkcji: 2020</p>
+                    <p>Skrzynia biegów: manualna</p>
+                    <button class="reservation">ZAPYTAJ O DOSTĘPNOŚĆ</button>
+                </div>
+                
+            </div>
+            <div  class="samochod on sport">
+                <div class="car-img">
+                    <img src="./images/car3.webp" alt="">
+                </div>
+                <div> 
+                    <h2 class="car-name">Audi A5</h2>
+                    <p class="type">Typ samochodu: hatchback</p>
+                    <p>Ilość miejsc: 5</p>
+                    <p class="year">Rok produkcji: 2020</p>
+                    <p>Skrzynia biegów: manualna</p>
+                    <button class="reservation">ZAPYTAJ O DOSTĘPNOŚĆ</button>
+                </div>
+            </div>
+            <div  class="samochod on sport">
+                <div class="car-img">
+                    <img src="./images/car4.webp" alt="">
+                </div>
+                <div> 
+                    <h2 class="car-name">Audi S8</h2>
+                    <p class="type">Typ samochodu: hatchback</p>
+                    <p>Ilość miejsc: 5</p>
+                    <p class="year">Rok produkcji: 2020</p>
+                    <p>Skrzynia biegów: manualna</p>
+                    <button class="reservation">ZAPYTAJ O DOSTĘPNOŚĆ</button>
+                </div>
+            </div>
+            <div  class="samochod on family">
+                <div class="car-img">
+                    <img src="./images/car5.webp" alt="">
+                </div>
+                <div> 
+                    <h2 class="car-name">BMW Wsiór</h2>
+                    <p class="type">Typ samochodu: hatchback</p>
+                    <p>Ilość miejsc: 5</p>
+                    <p class="year">Rok produkcji: 2020</p>
+                    <p>Skrzynia biegów: manualna</p>
+                    <button class="reservation">ZAPYTAJ O DOSTĘPNOŚĆ</button>
+                </div>
+            </div>
+            <div class="samochod on old">
+                <div class="car-img">
+                    <img src="./images/car6.webp" alt="">
+                </div>
+                <div> 
+                    <h2 class="car-name">Fiat stary</h2>
+                    <p class="type">Typ samochodu: hatchback</p>
+                    <p>Ilość miejsc: 5</p>
+                    <p class="year">Rok produkcji: 2020</p>
+                    <p>Skrzynia biegów: manualna</p>
+                    <button class="reservation">ZAPYTAJ O DOSTĘPNOŚĆ</button>
+                </div>
+            </div>
+            <div  class="samochod on family">
+                <div class="car-img">
+                    <img src="./images/car7.webp" alt="">
+                </div>
+                <div> 
+                    <h2 class="car-name">Nie wiem</h2>
+                    <p class="type">Typ samochodu: hatchback</p>
+                    <p>Ilość miejsc: 5</p>
+                    <p class="year">Rok produkcji: 2020</p>
+                    <p>Skrzynia biegów: manualna</p>
+                    <button class="reservation">ZAPYTAJ O DOSTĘPNOŚĆ</button>
+                </div>
+            </div>
+            <div  class="samochod on family">
+                <div class="car-img">
+                    <img src="./images/car8.webp" alt="">
+                </div>
+                <div> 
+                    <h2 class="car-name">Staruch </h2>
+                    <p class="type">Typ samochodu: hatchback</p>
+                    <p>Ilość miejsc: 5</p>
+                    <p class="year">Rok produkcji: 2020</p>
+                    <p>Skrzynia biegów: manualna</p>
+                    <button class="reservation">ZAPYTAJ O DOSTĘPNOŚĆ</button>
+                </div>
+            </div>
+            <div  class="samochod on old">
+                <div class="car-img">
+                    <img src="./images/car9.webp" alt="">
+                </div>
+                <div> 
+                    <h2 class="car-name">Autko </h2>
+                    <p class="type">Typ samochodu: hatchback</p>
+                    <p>Ilość miejsc: 5</p>
+                    <p class="year">Rok produkcji: 2020</p>
+                    <p>Skrzynia biegów: manualna</p>
+                    <button class="reservation">ZAPYTAJ O DOSTĘPNOŚĆ</button>
+                </div>
+            </div>
+            <div  class="samochod on old">
+                <div class="car-img">
+                    <img src="./images/car10.png" alt="">
+                </div>
+                <div> 
+                    <h2 class="car-name">Sztrucel</h2>
+                    <p class="type">Typ samochodu: hatchback</p>
+                    <p>Ilość miejsc: 5</p>
+                    <p class="year">Rok produkcji: 2020</p>
+                    <p>Skrzynia biegów: manualna</p>
+                    <button class="reservation">ZAPYTAJ O DOSTĘPNOŚĆ</button>
+                </div>
+            </div>
+
+            
+            
+        </div>
+            
+    </div>
+
+    <!-- OFERTA -->
+    <div class="oferta">
+        <h1 class="title-h1">NASZA OFERTA</h1>
+        <div class="ofert-container">
+            <div class="ofert-left">
+                <h1>WYNAJEM KRÓTKOTERMINOWY</h1>
+                <p>(1-7 dni)</p>
+                <p>Cena od 150zł/dzień</p>
+                <button>ZAREZERWUJ!</button>
+            </div>
+            <div class="ofert-right">
+                <h1>WYNAJEM DŁUGOTERMINOWY</h1>
+                <p>(7+ dni)</p>
+                <p>Cena od 100zł/dzień</p>
+                <button>ZAREZERWUJ!</button>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- KONTAKT -->
+
+    <div class="contact">
+        <h1 class="title-h1">KONTAKT</h1>
+        <div class="contact-container">
+            <div class="phone">
+                <h2>Zadzwoń do nas i zarezerwuj samochód!</h2>
+                <hr>
+                <p>Nasza infolinia jest dostępna 24/7. Zadzwoń, zapytaj o dostępność samochodu i zarezerwuj go!</p>
+                <p class="number">+48 666-666-666</p>
+            </div>
+            <div class="questions">
+                <h2>Masz pytanie? Zapytaj!</h2>
+                <hr>
+                <input class="name" type="text" placeholder="imię i nazwisko" required>
+                <input class="mail" type="text" placeholder="email" required>
+                <textarea class="ask" name="pytanie" id="" cols="33" rows="10" placeholder="twoje pytanie..." required></textarea>
+                <button class="submit">WYŚLIJ</button>
+            </div>
+        </div>
+    </div>
+    <div class="callme ">
+        <div class="call">
+            <p>Zadzwoń i zapytaj o dostępność</p>
+            <p class="number">+48 666-666-666</p>
+            <span><i class="fa-solid fa-xmark on"></i></span>
+        </div>
+    </div>
+    <div class="right-tell on"><span></i>+48 666-666-666</span><i class="fa-solid fa-phone"></i></div>
+    <div class="page-up on"><span><i class="fa-sharp fa-solid fa-arrow-up"></i></span></div>
+    <footer class="footer">Wykonał Grzegorz Hipnarowicz  |  Wszelkie prawa zastrzeżone</footer>
+
+    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/1.3.8/FileSaver.js"></script>
+</body>
+</html>
